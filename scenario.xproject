@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Version>3.5</Version>
+    <Version>3.6</Version>
     <SupportedRuntimeVersions>
-        <Version variant="xAquaticRisk" number="2.45"/>
+        <Version variant="xAquaticRisk" number="2.55"/>
     </SupportedRuntimeVersions>
     <Description>Oudebeek catchment.</Description>
     <Changelog>
+        <Version number="3.6" date="2021-11-08">
+            <Change author="sascha">Initial git release</Change>
+        </Version>
         <Version number="3.5" date="2021-10-12">
             <Change author="sascha">Rearranged scenario structure</Change>
             <Change author="sascha">Spellings</Change>
