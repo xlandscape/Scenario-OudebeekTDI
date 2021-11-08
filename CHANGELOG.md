@@ -1,6 +1,15 @@
 # Changelog
 This list contains all additions, changes and fixes for the scenario.
-It was automatically created on 2021-10-12
+It was automatically created on 2021-11-08
+
+## [3.6] - 2021-11-08
+### Added
+
+###Changed
+- Initial git release
+
+###Fixed
+
 
 ## [3.5] - 2021-10-12
 ### Added
