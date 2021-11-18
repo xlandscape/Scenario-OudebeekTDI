@@ -33,7 +33,7 @@
         </Version>
     </Changelog>
     <Content>
-        <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.5"/>
+        <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.6"/>
         <Item name="Temperature" target="weather/mars25_temperature.csv" version="3"/>
         <Item name="Hydrology" target="hydro/hydro_reaches.h5" version="oudebeek-T-Di-1.0-18112020" doc="hydro/doc"/>
         <Item name="Catchment" target="hydro/CatchmentList.csv" version="oudebeek-T-Di-1.0-18112020"/>
