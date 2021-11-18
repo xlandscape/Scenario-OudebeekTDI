@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Version>3.6</Version>
+    <Version>3.7</Version>
     <SupportedRuntimeVersions>
-        <Version variant="xAquaticRisk" number="2.55"/>
+        <Version variant="xAquaticRisk" number="2.57"/>
     </SupportedRuntimeVersions>
     <Description>Oudebeek catchment.</Description>
     <Changelog>
+        <Version number="3.7" date="2021-11-18">
+            <Change author="sascha">Updated geo-data to version 1.6</Change>
+        </Version>
         <Version number="3.6" date="2021-11-08">
             <Change author="sascha">Initial git release</Change>
         </Version>
@@ -33,7 +36,7 @@
         </Version>
     </Changelog>
     <Content>
-        <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.5"/>
+        <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.6"/>
         <Item name="Temperature" target="weather/mars25_temperature.csv" version="3"/>
         <Item name="Hydrology" target="hydro/hydro_reaches.h5" version="oudebeek-T-Di-1.0-18112020" doc="hydro/doc"/>
         <Item name="Catchment" target="hydro/CatchmentList.csv" version="oudebeek-T-Di-1.0-18112020"/>
