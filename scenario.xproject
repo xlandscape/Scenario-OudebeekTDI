@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Version>3.7</Version>
+    <Version>3.8</Version>
     <SupportedRuntimeVersions>
-        <Version variant="xAquaticRisk" number="2.57"/>
+        <Version variant="xAquaticRisk" number="2.67"/>
     </SupportedRuntimeVersions>
     <Description>Oudebeek catchment.</Description>
     <Changelog>
+        <Version number="3.8" date="2022-01-12">
+            <Change author="sascha">Updated geo-data to version 1.7</Change>
+        </Version>
         <Version number="3.7" date="2021-11-18">
             <Change author="sascha">Updated geo-data to version 1.6</Change>
         </Version>
