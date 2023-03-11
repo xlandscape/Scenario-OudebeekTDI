@@ -32,8 +32,7 @@ from the model parameterization. For details how to reference the scenario from 
 `README` of the model.
 
 **This scenario requires an additional resource. Please download the resource from 
-[https://xlandscape.org/releases/Scenario-OudebeekTDI-hydro-oudebeek-T-Di-1.0-18112020.zip]
-(https://xlandscape.org/releases/Scenario-OudebeekTDI-hydro-oudebeek-T-Di-1.0-18112020.zip) 
+[https://xlandscape.org/releases/Scenario-OudebeekTDI-hydro-oudebeek-T-Di-1.0-18112020.zip](https://xlandscape.org/releases/Scenario-OudebeekTDI-hydro-oudebeek-T-Di-1.0-18112020.zip) 
 and put it into the scenario folder.**
 
 ## Usage
