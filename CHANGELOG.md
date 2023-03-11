@@ -2,6 +2,15 @@
 This list contains all additions, changes and fixes for the scenario.
 It was automatically created on 2023-03-11
 
+## [3.10] - 2023-03-11
+### Added
+
+###Changed
+
+###Fixed
+- Link in README.md
+
+
 ## [3.9] - 2023-03-11
 ### Added
 - Link to outsourced hydrology to README.md
