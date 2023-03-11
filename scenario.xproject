@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project>
-    <Version>3.8</Version>
+    <Version>3.9</Version>
     <SupportedRuntimeVersions>
         <Version variant="xAquaticRisk" number="2.67"/>
     </SupportedRuntimeVersions>
     <Description>Oudebeek catchment.</Description>
     <Changelog>
+        <Version number="3.9" date="2023-03-11">
+            <Change author="sascha">Removed hydrology from scenario content</Change>
+            <Addition author="sascha">Link to outsourced hydrology to README.md</Addition>
+            <Fix>Version number in package.xinfo</Fix>
+        </Version>
         <Version number="3.8" date="2022-01-12">
             <Change author="sascha">Updated geo-data to version 1.7</Change>
         </Version>
@@ -50,4 +55,9 @@
         <Item name="WaterTemperature" target="stream_com/temp_Kornelimuenster.txt" version="2.0.10"/>
         <Item name="Biomass" target="stream_com/biomass.txt" version="2020.11.27"/>
     </Content>
+    <ExternalSources>
+        <ExternalSource>
+            https://xlandscape.org/releases/Scenario-OudebeekTDI-hydro-oudebeek-T-Di-1.0-18112020.zip
+        </ExternalSource>
+    </ExternalSources>
 </Project>

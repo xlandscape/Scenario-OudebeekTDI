@@ -1,6 +1,17 @@
 # Changelog
 This list contains all additions, changes and fixes for the scenario.
-It was automatically created on 2022-01-12
+It was automatically created on 2023-03-11
+
+## [3.9] - 2023-03-11
+### Added
+- Link to outsourced hydrology to README.md
+
+###Changed
+- Removed hydrology from scenario content
+
+###Fixed
+- Version number in package.xinfo
+
 
 ## [3.8] - 2022-01-12
 ### Added
