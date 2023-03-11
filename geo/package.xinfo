@@ -5,7 +5,7 @@
         xsi:schemaLocation="urn:xAquaticRiskLandscapeScenarioPackageInfo ../../../model/variant/package.xsd"
 >
   <meta>
-    <version>1.6</version>
+    <version>1.7</version>
     <target_type>222</target_type>
     <habitat_types>411, 412, 422</habitat_types>
   </meta>
