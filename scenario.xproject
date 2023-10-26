@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Project>
+<Project
+  xmlns="urn:xLandscapeModelScenarioInfo"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="urn:xLandscapeModelScenarioInfo ../../model/core/base/scenario.xsd"
+>
+    <Name>Oudebeek TDI</Name>
     <Version>3.11</Version>
     <SupportedRuntimeVersions>
         <Version variant="xAquaticRisk" number="2.67"/>
@@ -56,18 +61,28 @@
     <Content>
         <Item name="LandscapeScenario" target="geo/package.xinfo" version="1.7"/>
         <Item name="Temperature" target="weather/mars25_temperature.csv" version="3"/>
-        <Item name="Hydrology" target="hydro/hydro_reaches.h5" version="oudebeek-T-Di-1.0-18112020" doc="hydro/doc"/>
-        <Item name="Catchment" target="hydro/CatchmentList.csv" version="oudebeek-T-Di-1.0-18112020"/>
-        <Item name="TimeSeries" target="hydro/TimeSeries" version="oudebeek-T-Di-1.0-18112020"/>
+        <Item name="Hydrology" target="hydro/hydro_reaches.h5" version="1.0.18112020" doc="hydro/doc"/>
+        <Item name="Catchment" target="hydro/CatchmentList.csv" version="1.0.18112020"/>
+        <Item name="TimeSeries" target="hydro/TimeSeries" version="1.0.18112020"/>
         <Item name="Map" target="stream_com/map.xml" version="2.0.1"/>
         <Item name="SiteInformation" target="stream_com/site_niers_peutenweg.txt" version="2.0.10"/>
         <Item name="SpeciesParameters" target="stream_com/spec.xml" version="2.0.19"/>
         <Item name="WaterTemperature" target="stream_com/temp_Kornelimuenster.txt" version="2.0.10"/>
-        <Item name="Biomass" target="stream_com/biomass.txt" version="2020.11.27"/>
+        <Item name="Biomass" target="stream_com/biomass.txt" version="0.1.20201127"/>
     </Content>
     <ExternalSources>
         <ExternalSource>
             https://xlandscape.org/releases/Scenario-OudebeekTDI-hydro-oudebeek-T-Di-1.0-18112020.zip
         </ExternalSource>
     </ExternalSources>
+    <Contacts>
+      <Contact>Thorsten Schad - thorsten.schad@bayer.com</Contact>
+      <Contact>Sascha Bub - sascha.bub@gmx.de</Contact>
+   </Contacts>
+   <Acknowledgements>
+    <Acknowledgement>
+      Sebastian Multsch for hydrological, hydrographic and geospatial parts of the scenario
+    </Acknowledgement>
+    <Acknowledgement>Tido Strauß for the StreamCom parameterization</Acknowledgement>
+  </Acknowledgements>
 </Project>
